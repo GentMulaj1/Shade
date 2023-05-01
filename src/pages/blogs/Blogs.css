@@ -1,0 +1,15 @@
+.Blogs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 100px auto;
+}
+
+.blog__news {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 50px auto;
+}

@@ -1,0 +1,101 @@
+.HeroHome {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(https://uploads-ssl.webflow.com/63b55c8e909300be9ab8447d/63d54e6d874a876ea1bfa658_Header_0.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px auto;
+}
+
+.HeroHome__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.HeroHome h1 {
+    font-size: 50px;
+}
+
+.HeroHome p {
+    width: 70%;
+}
+
+.HeroHome form {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroHome input {
+    width: 70%;
+    height: 50px;
+    border: 1px solid var(--grey);
+    background-color: black;
+    color: var(--white);
+    padding-left: 10px;
+}
+
+.HeroHome input::placeholder {
+    padding-left: 10px;
+}
+
+.HeroHome button {
+    width: 25%;
+    height: 50px;
+    border: 1px solid var(--grey);
+    background-color: black;
+    color: var(--white);
+}
+
+.small__span {
+    font-size: 12px;
+}
+
+
+
+.allpages__social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.allpages__social a {
+    border: 1px solid var(--whiteDark);
+    padding: 10px;
+}
+
+.MuiSvgIcon-root {
+    font-size: 30px !important;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .HeroHome {
+        padding: 20px;
+    }
+    
+    .HeroHome h1 {
+        text-align: center;
+    }
+
+    .HeroHome p {
+        width: 100%;
+    }
+
+    .HeroHome form {
+        width: 100%;
+    }
+
+    .hide__mobile {
+        display: none;
+    }
+}

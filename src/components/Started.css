@@ -1,0 +1,62 @@
+.Started {
+    gap: 20px;
+    margin: 50px auto;
+    padding: 50px 0px;
+    background-color: var(--grey);
+}
+
+.Started h1 {
+    font-size: 50px;
+}
+
+.Started p {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Started form {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Started input {
+    height: 50px;
+    width: 75%;
+    border: none;
+    background-color: black;
+    color: var(--white) !important;
+    padding-left: 10px;
+}
+
+.Started button {
+    width: 20%;
+    border: none;
+    background-color: black;
+    color: var(--white);
+}
+
+.started__p {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+    .Started {
+        padding: 20px;
+    }
+
+    .Started h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Started p {
+        width: 100%;
+    }
+
+    .Started form {
+        width: 100%;
+    }
+    
+}

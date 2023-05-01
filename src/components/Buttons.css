@@ -1,0 +1,38 @@
+.Buttons {
+    margin: 50px auto;
+}
+
+.Buttons h5 {
+    color: var(--white);
+    text-align: center;
+    margin: 30px auto;
+}
+
+.all__buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.all__buttons div {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--grey);
+}
+
+.all__buttons img {
+    height: 40px;
+    object-fit: contain;
+
+}
+
+@media screen and (max-width: 768px) {
+    .all__buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

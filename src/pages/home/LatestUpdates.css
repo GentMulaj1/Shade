@@ -1,0 +1,28 @@
+.LatestUpdates {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 100px auto;
+}
+
+.latestupdates__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .latestupdates__cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+

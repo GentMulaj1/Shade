@@ -1,0 +1,52 @@
+.Blog {
+    border: 1px solid var(--grey);
+    padding: 50px 30px;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Blog img {
+    width: 100%;
+}
+
+.blog__buttons a {
+    border: 1px solid var(--brown);
+    padding: 5px 10px;
+    margin-right: 20px;
+    color: var(--brown) !important;
+}
+
+.blog__buttons a:hover {
+    color: var(--white) !important;
+}
+
+.blog__buttons span {
+    color: var(--brown);
+}
+
+.Blog h2 {
+    font-size: 40px;
+    text-align: start;
+}
+
+.Blog p {
+    font-size: 22px;
+    text-align: start;
+}
+
+.Blog a {
+    color: var(--brown) !important;
+}
+
+.latest__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 150px;
+    height: 50px;
+
+}

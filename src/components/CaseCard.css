@@ -1,0 +1,42 @@
+
+.case__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.case__card {
+    border: 1px solid var(--grey);
+}
+
+.case__card__left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+}
+
+.case__card__left img {
+    width: 150px !important;
+}
+
+.case__card__right {
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 992px) {
+    .case__card {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .case__card__left {
+        width: 100% !important;
+    }
+
+    .case__card__right {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+}

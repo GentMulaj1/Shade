@@ -1,0 +1,62 @@
+.Author {
+    padding: 50px;  
+    display: flex;
+    border: 1px solid var(--grey);
+
+}
+
+.author__left {
+    width: 50%;
+}
+
+.author__left img {
+    width: 100%;
+}
+
+.author__right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 50px;
+}
+
+#author__description {
+    font-size: 20px;
+}
+
+
+
+.name__and__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.author__name p {
+    color: var(--white);
+    font-size: 18px;
+}
+
+.author__img img {
+    width: 120px;
+}
+
+@media screen and (max-width: 992px) {
+    .Author {
+        flex-direction: column;
+        gap: 50px;
+        margin: 100px 20px;
+    }
+
+    .author__left {
+        width: 100%;
+    }
+
+    .author__right {
+        width: 100%;
+    }
+}

@@ -1,0 +1,66 @@
+.AllPages { 
+    border: 1px solid var(--grey);
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px !important;
+}
+
+.allpages__social__footer {
+    display: flex;
+    gap: 10px;
+}
+
+.allpages__social__footer a {
+    border: 1px solid var(--grey);
+    padding: 10px;
+}
+
+.MuiSvgIcon-root {
+    font-size: 22px !important;
+}
+
+.allpages__left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+}
+
+.allpages__right {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 50px;
+    column-gap: 30px;
+}
+
+.allpages__right div h5 {
+    color: var(--white);
+}
+
+ul {
+    padding: 0px;
+}
+
+.allpages__right div ul li {
+    padding: 5px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .AllPages {
+        flex-direction: column;
+        padding: 50px;
+    }
+
+    .allpages__left {
+        width: 100%;
+    }
+
+    .allpages__right {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+}

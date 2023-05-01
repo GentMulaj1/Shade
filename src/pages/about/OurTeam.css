@@ -1,0 +1,21 @@
+.OurTeam {
+    margin: 100px auto;
+}
+
+.outTeam__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+@media screen and (max-width: 992px) {
+    .outTeam__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .outTeam__cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

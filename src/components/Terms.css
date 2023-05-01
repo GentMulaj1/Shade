@@ -1,0 +1,14 @@
+.Terms {
+    color: var(--white) !important;
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width: 992px) {
+    .Descriptions {
+        width: 90%;
+    }
+}

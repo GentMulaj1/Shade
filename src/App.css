@@ -1,38 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --brown: rgba(189,159,96, 1);
+  --white: rgba(217,216,216, 1);
+  --whiteDark: rgba(153,153,152, 1);
+  --grey: rgba(58,61,76, 1);
+}
+
 .App {
-  text-align: center;
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none !important;
+  color: var(--white) !important; 
+  font-size: 16px;
+  font-weight: 400;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span {
+  color: var(--whiteDark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  color: var(--whiteDark);
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: var(--white);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+ul {
+  list-style: none;
+}
+
+.brown {
+  color: var(--brown);
+}
+
+a:hover {
+  color: var(--brown) !important;
+}
+
+.grey__btn {
+  border: none;
+  outline: none;
+  background-color: var(--grey) ;
+  color: var(--brown) !important;
+  cursor: pointer;
+}
+
+.grey__btn:hover {
+  border: none;
+  outline: none;
+  background-color: var(--brown);
+  color: black !important;
+  transition: ease-in-out 250ms;
+}
+
+.black__btn {
+  border: 1px solid var(--grey);
+  color: var(--white);
+  background-color: black;
+  cursor: pointer;
+}
+
+.black__btn:hover {
+  border: 1px solid var(--brown);
+  background-color: var(--brown);
+  color: black !important;
+}
+
+.my__container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .my__container {
+    width: 100%;
+    padding: 10px 20px;
   }
 }
